@@ -11,6 +11,8 @@ Using Spring boot, PostgreSQL and JSON Web Tokens
     docker container cp expensetracker_db.sql postgresdb:/
     docker container exec -it postgresdb bash
     psql -U postgres --file expensetracker_db.sql
+   
+Running the maven project   
     ./mvnw spring-boot:run
     
 Runs on port 8080.
